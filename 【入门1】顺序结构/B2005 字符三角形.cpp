@@ -6,4 +6,5 @@ int main() {
 	std::cout << b << b << a << std::endl;
 	std::cout << b << a << a << a << std::endl;
 	std::cout << a << a << a << a << a << std::endl;
+	return 0;
 }
