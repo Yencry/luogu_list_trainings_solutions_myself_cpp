@@ -1,10 +1,10 @@
-#include <iostream>
+﻿#include <iostream>
 
 int main() {
-	char input_char; constexpr char space_char = ' ';
-	std::cin.get(input_char);
-	std::cout << space_char << space_char << input_char << '\n';
-	std::cout << space_char << input_char << input_char << input_char << '\n';
-	std::cout << input_char << input_char << input_char << input_char << input_char;
+	char a;char b= ' ';
+	std::cin >> a;
+	std::cout << b << b << a << std::endl;
+	std::cout << b << a << a << a << std::endl;
+	std::cout << a << a << a << a << a << std::endl;
 	return 0;
 }
