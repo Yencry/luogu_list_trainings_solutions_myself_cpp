@@ -48,4 +48,5 @@ int main() {
 			<< std::setw(2) << hh << ':'
 			<< std::setw(2) << ss;
 	}
+	return 0;
 }
