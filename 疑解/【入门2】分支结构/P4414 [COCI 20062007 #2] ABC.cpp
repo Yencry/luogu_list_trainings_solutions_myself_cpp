@@ -6,9 +6,7 @@
 #include <ranges> 
 
 using namespace std;
-namespace
-{
-	
+namespace{
 	int readIn(){
 		int a;
 		cin >> a ;
@@ -24,11 +22,11 @@ int main() {
 	string litter;getline(cin, litter);
 	std::ranges::sort(numbers);
 	int i = 0;
-	for (char ch : litter)
-	{
+	for (char ch : litter){
 		const auto index = std::ranges::find(command, ch) - begin(command);
 		cout << numbers[index];
 		if (i < 2) cout << " ";
+		i++;
 	}
 	return 0;
 }
