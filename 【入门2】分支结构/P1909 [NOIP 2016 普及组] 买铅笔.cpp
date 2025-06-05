@@ -14,4 +14,5 @@ int main() {
 		spend_money[i] = buy_many_number * package_price;
 	}
 	std::cout << *std::min_element(std::begin(spend_money), std::end(spend_money)) << '\n';
+	return 0;
 }
