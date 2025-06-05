@@ -23,8 +23,7 @@ int main() {
 	std::ranges::sort(numbers);
 	int i = 0;
 	for (char ch : litter){
-		const auto index = std::ranges::find(command, ch) - begin(command);
-		cout << numbers[index];
+		cout << numbers[std::ranges::find(command, ch) - begin(command)];
 		if (i < 2) cout << " ";
 		i++;
 	}
