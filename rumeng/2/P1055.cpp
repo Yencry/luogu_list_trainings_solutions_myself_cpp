@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <cctype>
 
@@ -24,8 +24,8 @@ int main() {
 		cout << isbn;
 		return 0;
 	}
-	if (const int result = sum % 11;
-		result == isbn.back() - '0') cout << "Right";
+	const int result = sum % 11;
+	if (result == isbn.back() - '0') cout << "Right";
 	else{
 		isbn.back() = static_cast<char>(result + '0');
 		cout << isbn;

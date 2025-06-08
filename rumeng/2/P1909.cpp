@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <algorithm> 
 #include <cmath>
 
@@ -13,6 +13,5 @@ int main() {
 		buy_many_number = static_cast<int>(ceil(static_cast<double>(need_number) / number_in_package));
 		spend_money[i] = buy_many_number * package_price;
 	}
-	std::cout << *std::min_element(std::begin(spend_money), std::end(spend_money)) << '\n';
-	return 0;
+	std::cout << *std::min_element(std::begin(spend_money), std::end(spend_money));
 }

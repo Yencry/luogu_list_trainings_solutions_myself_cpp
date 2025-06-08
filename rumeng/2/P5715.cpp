@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 int main() {
 	int a, b, c;
@@ -16,6 +16,6 @@ int main() {
 			g = temp;
 		}
 	}
-	std::cout << e << " " << f << " " << g << std::endl;
+	std::cout << e << " " << f << " " << g;
 	return 0;
 }

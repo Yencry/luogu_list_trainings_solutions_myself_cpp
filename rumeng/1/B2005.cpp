@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 int main() {
 	char a;char b= ' ';
